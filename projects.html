@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swaroop - Projects</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+            color: #8454fd;
+        }
+
+        .projects-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 50px;
+        }
+
+        .project {
+            background-color: #1e2167;
+            color: white;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px;
+            transition: all 0.3s;
+            cursor: pointer;
+        }
+
+        .project:hover {
+            transform: scale(1.1);
+            border: 2px solid #8454fd;
+        }
+
+        .project-1 {
+            width: 300px;
+        }
+
+        .project-2 {
+            width: 350px;
+        }
+
+        .project-3 {
+            width: 400px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Projects</h1>
+        <div class="projects-container">
+            <div class="project project-1" onmouseover="this.style.border='2px solid #8454fd';"
+                onmouseout="this.style.border='none';">
+                <h2>Comparision of sorting algorithms using matplotlib</h2>
+                <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut
+                    labore et dolore magna aliqua.</p>
+            </div>
+            <div class="project project-2" onmouseover="this.style.border='2px solid #8454fd';"
+                onmouseout="this.style.border='none';">
+                <h2>Stack visualization using tkinter</h2>
+                <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut
+                    labore et dolore magna aliqua.</p>
+            </div>
+            <div class="project project-3" onmouseover="this.style.border='2px solid #8454fd';"
+                onmouseout="this.style.border='none';">
+                <h2>Front end of a food-ecommerce website</h2>
+                <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut
+                    labore et dolore magna aliqua.</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
